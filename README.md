@@ -42,26 +42,28 @@ search by capacity & route, and book them with real‑time availability checks.
 ## 🗂 Folder Structure
 
 fleetlink/
-├─ backend/
-│ ├─ models/
-│ │ ├─ Vehicle.js
-│ │ └─ Booking.js
-│ ├─ routes/
-│ │ ├─ vehicles.js
-│ │ └─ bookings.js
-│ ├─ server.js
-│ └─ .env # Contains MONGO_URI
-└─ frontend/
-├─ public/
-│ └─ index.html
-├─ src/
-│ ├─ AddVehicle.jsx
-│ ├─ SearchBook.jsx
-│ ├─ App.jsx
-│ ├─ main.jsx
-│ └─ index.css
-├─ package.json
-└─ vite.config.js
+├── backend/
+│   ├── models/
+│   │   ├── Vehicle.js
+│   │   └── Booking.js
+│   ├── routes/
+│   │   ├── vehicles.js
+│   │   └── bookings.js
+│   ├── server.js
+│   └── .env                # Contains MONGO_URI
+│
+└── frontend/
+    ├── public/
+    │   └── index.html
+    ├── src/
+    │   ├── components/
+    │   │   ├── AddVehicle.jsx
+    │   │   └── SearchBook.jsx
+    │   ├── App.jsx
+    │   ├── main.jsx
+    │   └── index.css
+    ├── package.json
+    └── vite.config.js
 
 yaml
 Copy
